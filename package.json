@@ -1,0 +1,13 @@
+{
+  "name": "@saggitarius/metadata",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@saggitarius/typing": "git://github.com/dhindustries/saggitarius-typing.git"
+  }
+}
