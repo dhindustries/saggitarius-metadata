@@ -1,21 +1,23 @@
 {
-    "compilerOptions": {
-        "composite": true,
-        "module": "commonjs",
-        "moduleResolution": "Node",
-        "target": "es2016",
-        "jsx": "preserve",
-        "sourceMap": true,
-        "outDir": "./dist",
-        "sourceRoot": "./src",
-        "rootDir": "./src"
-    },
-    "exclude": [
-        "node_modules",
-        "**/node_modules/*",
-        "dist"
-    ],
-    "references": [
-        {"path": "./node_modules/@saggitarius/typing"}
-    ]
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "outDir": "dist",
+    "sourceRoot": "src",
+    "rootDir": "src",
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist"
+  ],
+  "references": [
+    {
+      "path": "./node_modules/@saggitarius/typing"
+    }
+  ]
 }

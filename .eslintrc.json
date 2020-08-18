@@ -32,14 +32,6 @@
         "semi": [
             "error",
             "always"
-        ],
-        "@typescript-eslint/ban-types": [
-            "error",
-            {
-                "types": {
-                    "Function": false
-                }
-            }
         ]
     }
 }
